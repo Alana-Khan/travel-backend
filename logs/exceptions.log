@@ -1,0 +1,126 @@
+[2025-12-21T15:34:25.112Z] error: uncaughtException: adminSchema is not defined
+ReferenceError: adminSchema is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/AdminModel.js:17:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T15:35:01.772Z] error: uncaughtException: adminSchema is not defined
+ReferenceError: adminSchema is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/AdminModel.js:17:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T15:35:50.304Z] error: uncaughtException: adminSchema is not defined
+ReferenceError: adminSchema is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/AdminModel.js:17:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T15:36:23.432Z] error: uncaughtException: adminSchema is not defined
+ReferenceError: adminSchema is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/AdminModel.js:17:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T16:57:30.462Z] error: uncaughtException: Cannot access 'createGalleryItem' before initialization
+ReferenceError: Cannot access 'createGalleryItem' before initialization
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/galleryModel.js:13:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T16:57:44.473Z] error: uncaughtException: Cannot access 'createGalleryItem' before initialization
+ReferenceError: Cannot access 'createGalleryItem' before initialization
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/galleryModel.js:13:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T16:59:08.097Z] error: uncaughtException: Cannot access 'createGalleryItem' before initialization
+ReferenceError: Cannot access 'createGalleryItem' before initialization
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/galleryModel.js:13:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T16:59:21.488Z] error: uncaughtException: Cannot access 'createGalleryItem' before initialization
+ReferenceError: Cannot access 'createGalleryItem' before initialization
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/galleryModel.js:13:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T16:59:39.375Z] error: uncaughtException: Cannot access 'createGalleryItem' before initialization
+ReferenceError: Cannot access 'createGalleryItem' before initialization
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/galleryModel.js:13:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-21T16:59:49.558Z] error: uncaughtException: Cannot access 'createGalleryItem' before initialization
+ReferenceError: Cannot access 'createGalleryItem' before initialization
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/galleryModel.js:13:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-22T07:45:07.910Z] error: uncaughtException: protect is not defined
+ReferenceError: protect is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Routes/checkoutRoute.js:6:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-22T07:45:31.561Z] error: uncaughtException: protect is not defined
+ReferenceError: protect is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Routes/checkoutRoute.js:8:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-22T07:45:42.990Z] error: uncaughtException: protect is not defined
+ReferenceError: protect is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Routes/checkoutRoute.js:8:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-22T07:52:48.658Z] error: uncaughtException: asyncHandler is not defined
+ReferenceError: asyncHandler is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Controllers/userController.js:31:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-22T07:53:18.806Z] error: uncaughtException: asyncHandler is not defined
+ReferenceError: asyncHandler is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Controllers/userController.js:32:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-22T08:02:47.409Z] error: uncaughtException: getAllCheckOuts is not defined
+ReferenceError: getAllCheckOuts is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Routes/checkoutRoute.js:9:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-22T19:29:26.607Z] error: uncaughtException: Admin is not defined
+ReferenceError: Admin is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Models/AdminModel.js:20:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+[2025-12-22T23:44:13.056Z] error: uncaughtException: getContactMessages is not defined
+ReferenceError: getContactMessages is not defined
+    at file:///C:/Users/OGDCL/Desktop/frontend/backend/Routes/AdminRoute.js:20:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
