@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
+import serverless from "serverless-http";
 import { connectToDatabase } from "./connection/db.js";
 import logger from "./utils/logger.js";
 import { config } from "dotenv";
