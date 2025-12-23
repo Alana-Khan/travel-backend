@@ -1,21 +1,39 @@
-import Review from "../Models/reviewModel.js";
+import Review from "../models/reviewModel.js";
 
-// ✅ ADD REVIEW
+// reviewcontroller.js
+// make sure your model is correct
+
+// Add new review
 export const addReview = async (req, res) => {
   try {
-    const review = await Review.create(req.body);
+    const { firstName, lastName, email, subject, message } = req.body;
+
+    const review = new Review({
+      firstName,
+      lastName,
+      email,
+      subject,
+      message,
+    });
+
+    await review.save();
 
     res.status(201).json({
+      success: true,
       message: "Review added successfully",
       review,
     });
   } catch (error) {
+    console.error("Review error:", error);
     res.status(500).json({
-      message: "Error adding review",
-      error: error.message,
+      success: false,
+      message: error.message,
     });
   }
 };
+
+// Other controllers (getAllReviews, deleteReview) remain the same
+
 
 // ✅ GET ALL REVIEWS (Admin / later use)
 export const getAllReviews = async (req, res) => {
