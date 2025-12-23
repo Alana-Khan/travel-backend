@@ -48,6 +48,6 @@ app.use("/api/bookings", bookingRoute);
 app.use("/api/reviews", reviewRoute);
 
 // server
-app.listen(PORT, () => {
+app.get(PORT, () => {
   logger.info(`Server is running on port ${PORT}`);
 });

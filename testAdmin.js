@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import Admin from "./Models/AdminModel.js";
 
-const MONGO_URI = "mongodb+srv://ifarkhaalanagul10_db_user:PQRIB9agQWGAv2R2@cluster0.avhtad8.mongodb.net/travel-app?retryWrites=true&w=majority";
+const MONGO_URI = "mongodb+srv://ahadsalalk_db_user:jak123@cluster0.wsartcd.mongodb.net/myDatabase?retryWrites=true&w=majority";
 
 mongoose.connect(MONGO_URI)
   .then(async () => {

@@ -1,32 +1,33 @@
 import mongoose from "mongoose";
+import dotenv from "dotenv";
+dotenv.config(); // MUST be top
+
 import Admin from "../Models/AdminModel.js";
 
-const MONGO_URI = "mongodb+srv://ifarkhaalanagul10_db_user:PQRIB9agQWGAv2R2@cluster0.avhtad8.mongodb.net/?appName=Cluster0";
-
-mongoose.connect(MONGO_URI)
-  .then(() => console.log("MongoDB connected"))
-  .catch((err) => console.error(err));
-
-const createAdmin = async () => {
+const seedAdmin = async () => {
   try {
-    const existingAdmin = await Admin.findOne({ email: "admin@example.com" });
-    if (existingAdmin) {
-      console.log("Admin already exists!");
-      return;
+    console.log("Connecting to database...", process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_URI);
+    console.log("Database connected successfully ✅");
+
+    const adminExists = await Admin.findOne({ email: "admin@example.com" });
+    if (!adminExists) {
+      const admin = new Admin({
+        name: "Super Admin",
+        email: "admin@example.com",
+        password: "password123",
+      });
+      await admin.save();
+      console.log("Admin seeded ✅");
+    } else {
+      console.log("Admin already exists");
     }
 
-    const admin = new Admin({
-      email: "admin@example.com",
-      password: "Admin@123" // will be hashed automatically
-    });
-
-    await admin.save();
-    console.log("Admin created successfully!");
+    process.exit(0);
   } catch (err) {
-    console.error(err);
-  } finally {
-    mongoose.disconnect();
+    console.error("Error seeding admin:", err);
+    process.exit(1);
   }
 };
 
-createAdmin();
+seedAdmin();
